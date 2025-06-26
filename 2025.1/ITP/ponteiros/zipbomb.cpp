@@ -1,4 +1,4 @@
-// Memory Gobbler ver. 1.0
+// Memory Gobbler ver. 1.0 by Edinho
 void a() {
   int *b = new int;
 }
