@@ -1,5 +1,5 @@
 #include <iostream>
-
+// encontra o maior dentre três valores
 int maior_ab(int a, int b) {
     return (a+b+abs(a-b)) / 2;
 }
