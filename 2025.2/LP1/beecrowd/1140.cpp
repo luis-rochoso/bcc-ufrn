@@ -3,14 +3,12 @@
 
 int main() {
     std::string texto[50];
-    int k = 0;
-    bool proceed = true;
-    while (proceed) {
-        getline(std::cin, texto[k]);
-        if (texto[k] == "*") {
-            proceed = false;
+    
+    for(int i = 0; i < 50; i++) {
+        getline(std::cin, texto[i]);
+        if (texto[i] == "*") {
+            break;
         }
-        else k++;
     }
 
     for (int i = 0; i < 50; i++) {
@@ -19,11 +17,11 @@ int main() {
         for (int j = 0; j < texto[i].size(); j++) {
             char pivot;
             if (j == 0) {
-                pivot = std::toupper(texto[i][j]);
+                pivot = toupper(texto[i][j]);
                 continue;
             }
             if (texto[i][j - 1] == ' ') {
-                if (std::toupper(texto[i][j]) == pivot) {
+                if (toupper(texto[i][j]) == pivot) {
                     continue;
                 }
                 else {
