@@ -1,5 +1,5 @@
 #include <iostream>
-
+// movimentos da Rainha
 short moves(short x1, short y1, short x2, short y2) {
     if (x1 == x2 && y1 == y2) return 0;
     if (x1 == x2 || y1 == y2) return 1;

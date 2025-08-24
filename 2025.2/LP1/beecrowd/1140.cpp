@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 using namespace std;
-
+// detector de tautogramas
 int main() {
     std::string texto[4500];
     
