@@ -1,17 +1,18 @@
 #include <iostream>
 #include <string>
+using namespace std;
 
 int main() {
-    std::string texto[50];
+    std::string texto[4500];
     
-    for(int i = 0; i < 50; i++) {
+    for(int i = 0; i < 4500; i++) {
         getline(std::cin, texto[i]);
         if (texto[i] == "*") {
             break;
         }
     }
 
-    for (int i = 0; i < 50; i++) {
+    for (int i = 0; i < 4500; i++) {
         if (texto[i] == "*") break;
         bool fim = false;
         for (int j = 0; j < texto[i].size(); j++) {
