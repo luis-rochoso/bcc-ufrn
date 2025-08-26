@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 using namespace std;
-
+// array hash
 int getValue(string texto, const int &j) {
     int counter = 0;
     for (int k = 0; k < texto.size(); k++) {

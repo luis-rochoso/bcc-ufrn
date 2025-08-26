@@ -1,6 +1,6 @@
 #include <iostream>
 #include <vector>
-
+// avaliador de senhas
 int main() {
     std::vector<std::string> testes;
 
