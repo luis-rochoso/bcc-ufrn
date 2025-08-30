@@ -1,6 +1,6 @@
 #include <iostream>
 #include <iomanip>
-
+// quanto tempo demora para população A passar da B?
 int growthTime(int PA, int PB, double G1, double G2) {
     for (int i = 0; i <= 101; i++) {
         if (i == 101) return i;

@@ -1,5 +1,5 @@
 #include <iostream>
-
+// maior categoria de velocidade entre as lesmas de um array
 int topSpeed(int snailSpeed[], int snailNum) {
     for (int i = 0; i < snailNum; i++) {
         if (snailSpeed [i] >= 20) return 3;
