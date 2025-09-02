@@ -3,6 +3,7 @@
  * @author Selan
  * @date April 6th, 2024.
  * @date April 2nd, 2025.
+ * Functions implemented and documented by Luis Filipe de Sousa
  */
 
 #ifndef GRAAL_HPP
